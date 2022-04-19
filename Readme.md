@@ -1,4 +1,4 @@
 Slakenet temporary website
 
 Still in development
-![Uploading in development.gif…]()
+![in development](https://user-images.githubusercontent.com/66879837/164093942-4f209325-8d52-49aa-bb8d-24497e654e40.gif)
