@@ -533,10 +533,91 @@ ul.email li i {
      float: right;
 }
 
-.about_img figure {
+/*.about_img figure {
      margin: 0;
 }
+*/
+#about img {
+  width: 100%;
+}
 
+#about .about-thumb {
+  margin-bottom: 32px;
+  position: relative;
+  text-align: center;
+}
+
+#about .about-overlay h3 {
+  padding-bottom: 0px;
+  color:#000;
+}
+
+#about .about-overlay h4{
+     color:#0000ff;
+}
+
+#about .about-overlay {
+  background-color: rgba(250,250,250,0.9);
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  transition: height 450ms;
+}
+
+#about .about-thumb:hover .about-overlay {
+  height: 100%;
+  background-color: #ffffff;
+  color: #222;
+  padding-top: 30%;
+  opacity: 0.9;
+}
+
+#about .about-thumb:hover h4 {
+  /*color: #1dc9e3;*/
+  color: #0000ff;
+}
+
+/*---------------------------------------
+   Social icon             
+-----------------------------------------*/
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    color: #666;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+    margin: 10px 4px 0px 4px;
+}
+
+.social-icon li a:hover {
+    background: #1dc9e3;
+    color: #ffffff;
+    top: -5px;
+}
 
 /** end about **/
 
